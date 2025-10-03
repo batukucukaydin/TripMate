@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98549B072E92A4FC0016F3D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98549B052E92A4FC0016F3D3 /* Localizable.strings */; };
+		98CB337C2E92C5C70061A5F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CB334E2E92C5C70061A5F0 /* Assets.xcassets */; };
+		98CB337E2E92C5C70061A5F0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98CB33262E92C5C70061A5F0 /* Localizable.strings */; };
+		98CB337F2E92C5C70061A5F0 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 98CB33512E92C5C70061A5F0 /* Poppins-SemiBold.ttf */; };
+		98CB33802E92C5C70061A5F0 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB332B2E92C5C70061A5F0 /* SplashView.swift */; };
+		98CB33812E92C5C70061A5F0 /* Date+Format.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33342E92C5C70061A5F0 /* Date+Format.swift */; };
+		98CB33822E92C5C70061A5F0 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33282E92C5C70061A5F0 /* Brand.swift */; };
+		98CB33842E92C5C70061A5F0 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33492E92C5C70061A5F0 /* Trip.swift */; };
+		98CB33852E92C5C70061A5F0 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB332C2E92C5C70061A5F0 /* Theme.swift */; };
+		98CB33862E92C5C70061A5F0 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB332A2E92C5C70061A5F0 /* Components.swift */; };
+		98CB33872E92C5C70061A5F0 /* DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33382E92C5C70061A5F0 /* DocumentsView.swift */; };
+		98CB33882E92C5C70061A5F0 /* PackingListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB333E2E92C5C70061A5F0 /* PackingListView.swift */; };
+		98CB33892E92C5C70061A5F0 /* TripDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33422E92C5C70061A5F0 /* TripDetailViewModel.swift */; };
+		98CB338A2E92C5C70061A5F0 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33292E92C5C70061A5F0 /* Colors.swift */; };
+		98CB338B2E92C5C70061A5F0 /* PlaceSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33312E92C5C70061A5F0 /* PlaceSearchService.swift */; };
+		98CB338C2E92C5C70061A5F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB334F2E92C5C70061A5F0 /* ContentView.swift */; };
+		98CB338E2E92C5C70061A5F0 /* LanguageSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33362E92C5C70061A5F0 /* LanguageSheet.swift */; };
+		98CB33902E92C5C70061A5F0 /* ModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB332F2E92C5C70061A5F0 /* ModelContainer.swift */; };
+		98CB33932E92C5C70061A5F0 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33472E92C5C70061A5F0 /* ChecklistItem.swift */; };
+		98CB33942E92C5C70061A5F0 /* NewTripSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33412E92C5C70061A5F0 /* NewTripSheet.swift */; };
+		98CB33952E92C5C70061A5F0 /* TripsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33432E92C5C70061A5F0 /* TripsListView.swift */; };
+		98CB33962E92C5C70061A5F0 /* TripMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB333C2E92C5C70061A5F0 /* TripMapView.swift */; };
+		98CB33972E92C5C70061A5F0 /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33442E92C5C70061A5F0 /* TripsViewModel.swift */; };
+		98CB33982E92C5C70061A5F0 /* AddStopSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB333A2E92C5C70061A5F0 /* AddStopSheet.swift */; };
+		98CB33992E92C5C70061A5F0 /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33482E92C5C70061A5F0 /* Stop.swift */; };
+		98CB339A2E92C5C70061A5F0 /* Bundle+Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33332E92C5C70061A5F0 /* Bundle+Language.swift */; };
+		98CB339B2E92C5C70061A5F0 /* TripDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB334A2E92C5C70061A5F0 /* TripDocument.swift */; };
+		98CB33BD2E92CD550061A5F0 /* TripMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CB33BC2E92CD550061A5F0 /* TripMateApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		98549B062E92A4FC0016F3D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		98549B082E92A51A0016F3D3 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		986F4CFD2E903B880047E8D8 /* TripMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CB33242E92C5C70061A5F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		98CB33252E92C5C70061A5F0 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		98CB33282E92C5C70061A5F0 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		98CB33292E92C5C70061A5F0 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		98CB332A2E92C5C70061A5F0 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		98CB332B2E92C5C70061A5F0 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		98CB332C2E92C5C70061A5F0 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		98CB332F2E92C5C70061A5F0 /* ModelContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelContainer.swift; sourceTree = "<group>"; };
+		98CB33312E92C5C70061A5F0 /* PlaceSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceSearchService.swift; sourceTree = "<group>"; };
+		98CB33332E92C5C70061A5F0 /* Bundle+Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Language.swift"; sourceTree = "<group>"; };
+		98CB33342E92C5C70061A5F0 /* Date+Format.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Format.swift"; sourceTree = "<group>"; };
+		98CB33362E92C5C70061A5F0 /* LanguageSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageSheet.swift; sourceTree = "<group>"; };
+		98CB33382E92C5C70061A5F0 /* DocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsView.swift; sourceTree = "<group>"; };
+		98CB333A2E92C5C70061A5F0 /* AddStopSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStopSheet.swift; sourceTree = "<group>"; };
+		98CB333C2E92C5C70061A5F0 /* TripMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMapView.swift; sourceTree = "<group>"; };
+		98CB333E2E92C5C70061A5F0 /* PackingListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackingListView.swift; sourceTree = "<group>"; };
+		98CB33412E92C5C70061A5F0 /* NewTripSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTripSheet.swift; sourceTree = "<group>"; };
+		98CB33422E92C5C70061A5F0 /* TripDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailViewModel.swift; sourceTree = "<group>"; };
+		98CB33432E92C5C70061A5F0 /* TripsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsListView.swift; sourceTree = "<group>"; };
+		98CB33442E92C5C70061A5F0 /* TripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewModel.swift; sourceTree = "<group>"; };
+		98CB33472E92C5C70061A5F0 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		98CB33482E92C5C70061A5F0 /* Stop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		98CB33492E92C5C70061A5F0 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		98CB334A2E92C5C70061A5F0 /* TripDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDocument.swift; sourceTree = "<group>"; };
+		98CB334E2E92C5C70061A5F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98CB334F2E92C5C70061A5F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98CB33502E92C5C70061A5F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CB33512E92C5C70061A5F0 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		98CB33BC2E92CD550061A5F0 /* TripMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMateApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		986F4CFA2E903B880047E8D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98549B042E92A4CC0016F3D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98549B052E92A4FC0016F3D3 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		986F4CF42E903B880047E8D8 = {
+			isa = PBXGroup;
+			children = (
+				98CB33272E92C5C70061A5F0 /* Resources */,
+				98CB33532E92C5C70061A5F0 /* TripMate */,
+				98549B042E92A4CC0016F3D3 /* Resources */,
+				986F4CFE2E903B880047E8D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		986F4CFE2E903B880047E8D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				986F4CFD2E903B880047E8D8 /* TripMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98CB33272E92C5C70061A5F0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98CB33262E92C5C70061A5F0 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		98CB332E2E92C5C70061A5F0 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				98CB33282E92C5C70061A5F0 /* Brand.swift */,
+				98CB33292E92C5C70061A5F0 /* Colors.swift */,
+				98CB332A2E92C5C70061A5F0 /* Components.swift */,
+				98CB332B2E92C5C70061A5F0 /* SplashView.swift */,
+				98CB332C2E92C5C70061A5F0 /* Theme.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		98CB33302E92C5C70061A5F0 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				98CB332F2E92C5C70061A5F0 /* ModelContainer.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		98CB33322E92C5C70061A5F0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				98CB33312E92C5C70061A5F0 /* PlaceSearchService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		98CB33352E92C5C70061A5F0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				98CB33332E92C5C70061A5F0 /* Bundle+Language.swift */,
+				98CB33342E92C5C70061A5F0 /* Date+Format.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		98CB33372E92C5C70061A5F0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				98CB332E2E92C5C70061A5F0 /* DesignSystem */,
+				98CB33302E92C5C70061A5F0 /* Persistence */,
+				98CB33322E92C5C70061A5F0 /* Services */,
+				98CB33352E92C5C70061A5F0 /* Utils */,
+				98CB33362E92C5C70061A5F0 /* LanguageSheet.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		98CB33392E92C5C70061A5F0 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				98CB33382E92C5C70061A5F0 /* DocumentsView.swift */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
+		98CB333B2E92C5C70061A5F0 /* Itinerary */ = {
+			isa = PBXGroup;
+			children = (
+				98CB333A2E92C5C70061A5F0 /* AddStopSheet.swift */,
+			);
+			path = Itinerary;
+			sourceTree = "<group>";
+		};
+		98CB333D2E92C5C70061A5F0 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				98CB333C2E92C5C70061A5F0 /* TripMapView.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		98CB333F2E92C5C70061A5F0 /* Packing */ = {
+			isa = PBXGroup;
+			children = (
+				98CB333E2E92C5C70061A5F0 /* PackingListView.swift */,
+			);
+			path = Packing;
+			sourceTree = "<group>";
+		};
+		98CB33402E92C5C70061A5F0 /* TripDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TripDetail;
+			sourceTree = "<group>";
+		};
+		98CB33452E92C5C70061A5F0 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				98CB33412E92C5C70061A5F0 /* NewTripSheet.swift */,
+				98CB33422E92C5C70061A5F0 /* TripDetailViewModel.swift */,
+				98CB33432E92C5C70061A5F0 /* TripsListView.swift */,
+				98CB33442E92C5C70061A5F0 /* TripsViewModel.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		98CB33462E92C5C70061A5F0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				98CB33392E92C5C70061A5F0 /* Documents */,
+				98CB333B2E92C5C70061A5F0 /* Itinerary */,
+				98CB333D2E92C5C70061A5F0 /* Map */,
+				98CB333F2E92C5C70061A5F0 /* Packing */,
+				98CB33402E92C5C70061A5F0 /* TripDetail */,
+				98CB33452E92C5C70061A5F0 /* Trips */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		98CB334B2E92C5C70061A5F0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				98CB33472E92C5C70061A5F0 /* ChecklistItem.swift */,
+				98CB33482E92C5C70061A5F0 /* Stop.swift */,
+				98CB33492E92C5C70061A5F0 /* Trip.swift */,
+				98CB334A2E92C5C70061A5F0 /* TripDocument.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98CB33532E92C5C70061A5F0 /* TripMate */ = {
+			isa = PBXGroup;
+			children = (
+				98CB33372E92C5C70061A5F0 /* Core */,
+				98CB33462E92C5C70061A5F0 /* Features */,
+				98CB334B2E92C5C70061A5F0 /* Models */,
+				98CB334E2E92C5C70061A5F0 /* Assets.xcassets */,
+				98CB334F2E92C5C70061A5F0 /* ContentView.swift */,
+				98CB33502E92C5C70061A5F0 /* Info.plist */,
+				98CB33512E92C5C70061A5F0 /* Poppins-SemiBold.ttf */,
+				98CB33BC2E92CD550061A5F0 /* TripMateApp.swift */,
+			);
+			path = TripMate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		986F4CFC2E903B880047E8D8 /* TripMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986F4D1E2E903B8A0047E8D8 /* Build configuration list for PBXNativeTarget "TripMate" */;
+			buildPhases = (
+				986F4CF92E903B880047E8D8 /* Sources */,
+				986F4CFA2E903B880047E8D8 /* Frameworks */,
+				986F4CFB2E903B880047E8D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripMate;
+			packageProductDependencies = (
+			);
+			productName = TripWay;
+			productReference = 986F4CFD2E903B880047E8D8 /* TripMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		986F4CF52E903B880047E8D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					986F4CFC2E903B880047E8D8 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 986F4CF82E903B880047E8D8 /* Build configuration list for PBXProject "TripMate" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				tr,
+			);
+			mainGroup = 986F4CF42E903B880047E8D8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 986F4CFE2E903B880047E8D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				986F4CFC2E903B880047E8D8 /* TripMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		986F4CFB2E903B880047E8D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CB337C2E92C5C70061A5F0 /* Assets.xcassets in Resources */,
+				98CB337E2E92C5C70061A5F0 /* Localizable.strings in Resources */,
+				98CB337F2E92C5C70061A5F0 /* Poppins-SemiBold.ttf in Resources */,
+				98549B072E92A4FC0016F3D3 /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		986F4CF92E903B880047E8D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CB33802E92C5C70061A5F0 /* SplashView.swift in Sources */,
+				98CB33812E92C5C70061A5F0 /* Date+Format.swift in Sources */,
+				98CB33822E92C5C70061A5F0 /* Brand.swift in Sources */,
+				98CB33842E92C5C70061A5F0 /* Trip.swift in Sources */,
+				98CB33852E92C5C70061A5F0 /* Theme.swift in Sources */,
+				98CB33862E92C5C70061A5F0 /* Components.swift in Sources */,
+				98CB33872E92C5C70061A5F0 /* DocumentsView.swift in Sources */,
+				98CB33882E92C5C70061A5F0 /* PackingListView.swift in Sources */,
+				98CB33892E92C5C70061A5F0 /* TripDetailViewModel.swift in Sources */,
+				98CB338A2E92C5C70061A5F0 /* Colors.swift in Sources */,
+				98CB338B2E92C5C70061A5F0 /* PlaceSearchService.swift in Sources */,
+				98CB338C2E92C5C70061A5F0 /* ContentView.swift in Sources */,
+				98CB338E2E92C5C70061A5F0 /* LanguageSheet.swift in Sources */,
+				98CB33BD2E92CD550061A5F0 /* TripMateApp.swift in Sources */,
+				98CB33902E92C5C70061A5F0 /* ModelContainer.swift in Sources */,
+				98CB33932E92C5C70061A5F0 /* ChecklistItem.swift in Sources */,
+				98CB33942E92C5C70061A5F0 /* NewTripSheet.swift in Sources */,
+				98CB33952E92C5C70061A5F0 /* TripsListView.swift in Sources */,
+				98CB33962E92C5C70061A5F0 /* TripMapView.swift in Sources */,
+				98CB33972E92C5C70061A5F0 /* TripsViewModel.swift in Sources */,
+				98CB33982E92C5C70061A5F0 /* AddStopSheet.swift in Sources */,
+				98CB33992E92C5C70061A5F0 /* Stop.swift in Sources */,
+				98CB339A2E92C5C70061A5F0 /* Bundle+Language.swift in Sources */,
+				98CB339B2E92C5C70061A5F0 /* TripDocument.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		98549B052E92A4FC0016F3D3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98549B062E92A4FC0016F3D3 /* en */,
+				98549B082E92A51A0016F3D3 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		98CB33262E92C5C70061A5F0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CB33242E92C5C70061A5F0 /* en */,
+				98CB33252E92C5C70061A5F0 /* tr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		986F4D1C2E903B8A0047E8D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 83B68838R2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		986F4D1D2E903B8A0047E8D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 83B68838R2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		986F4D1F2E903B8A0047E8D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83B68838R2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = TripMate;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Nearby places & map pins";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Save imported documents";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batukucukaydin.TripMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		986F4D202E903B8A0047E8D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 83B68838R2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "";
+				INFOPLIST_KEY_CFBundleDisplayName = TripMate;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Nearby places & map pins";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Save imported documents";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.batukucukaydin.TripMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		986F4CF82E903B880047E8D8 /* Build configuration list for PBXProject "TripMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986F4D1C2E903B8A0047E8D8 /* Debug */,
+				986F4D1D2E903B8A0047E8D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986F4D1E2E903B8A0047E8D8 /* Build configuration list for PBXNativeTarget "TripMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986F4D1F2E903B8A0047E8D8 /* Debug */,
+				986F4D202E903B8A0047E8D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 986F4CF52E903B880047E8D8 /* Project object */;
+}
